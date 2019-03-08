@@ -1,0 +1,104 @@
+@media (min-width: 768px){
+    .container{
+        width: 768px;
+        margin: 0 auto;
+        padding: 0 8px;
+    }
+
+    .header{
+        min-height: 700px;
+        background-image: url(../img/bg-image-tablet.jpg);
+    }
+
+    .nav{
+        margin-bottom: 40px;
+    }
+
+    .header-name{
+        max-width: 505px;
+    }
+
+    .header-name-2{
+        font-size: 52px;
+        margin-bottom: 22px;
+    }
+
+    .header-name-3{
+        font-size: 24px;
+        margin-bottom: 38px;
+    }
+
+    .header-name-4{
+        padding: 10px 36px;
+    }
+
+/*содержимое*/
+
+    .content{
+        padding: 0 15px;
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    
+    .name-section{
+        margin-bottom: 48px;
+    }
+       
+    .content-section{
+        margin: 0 auto;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .partner-list{
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px){
+    .container{
+        width: 992px;
+    }
+
+    .header{
+        background-image: url(../img/bg-image-desktop.jpg);
+    }
+
+    .nav {
+        margin-bottom: 60px;
+    }
+   
+    .header-name-2{
+        font-size: 52px;
+        margin-bottom: 20px;
+    }
+
+    .header-name-3{
+        font-size: 24px;
+        margin-bottom: 34px;
+    } 
+
+    .content{
+        padding-bottom: 40px;
+        
+    }
+
+    .name-section{
+        margin-bottom: 32px;
+    }
+
+    .content-section{
+        width: 940px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .partner-list{
+        width: 220px;
+        margin-bottom: 0;
+    }
+}
